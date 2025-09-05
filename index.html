@@ -13,5 +13,29 @@
 	<body>
 		<div id="root"></div>
 		<script type="module" src="/src/main.jsx"></script>
+		<!-- Google tag (gtag.js) - Load after interactive -->
+		<script>
+			// Wait for page to be interactive before loading analytics
+			function loadGoogleAnalytics() {
+				// Create and load gtag script
+				const script = document.createElement('script');
+				script.async = true;
+				script.src = 'https://www.googletagmanager.com/gtag/js?id=G-WMXTDYDHH9';
+				document.head.appendChild(script);
+
+				// Initialize gtag
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+				gtag('config', 'G-WMXTDYDHH9');
+			}
+
+			// Load analytics when page is interactive
+			if (document.readyState === 'loading') {
+				document.addEventListener('DOMContentLoaded', loadGoogleAnalytics);
+			} else {
+				loadGoogleAnalytics();
+			}
+		</script>
 	</body>
 </html>

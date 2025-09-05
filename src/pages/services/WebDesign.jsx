@@ -157,7 +157,7 @@ const WebDesign = () => {
               <img  
                 className="rounded-lg shadow-2xl w-full h-96 object-cover"
                 alt="Modern web design showcase on multiple devices"
-               src="https://images.unsplash.com/photo-1524221629551-6dd14def5ffd" />
+               src="/web-design-promo-image-1.jpeg" />
             </motion.div>
           </div>
         </div>

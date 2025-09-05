@@ -128,7 +128,7 @@ const WebDevelopment = () => {
               <img  
                 className="rounded-lg shadow-2xl w-full h-96 object-cover"
                 alt="Web development code on multiple monitors"
-               src="https://images.unsplash.com/photo-1698919585695-546e4a31fc8f" />
+               src="/web-development-promo-image-1.jpeg" />
             </motion.div>
           </div>
         </div>
@@ -318,7 +318,7 @@ const WebDevelopment = () => {
               <img  
                 className="rounded-lg shadow-2xl w-full h-96 object-cover"
                 alt="Development team collaborating on project"
-               src="https://images.unsplash.com/photo-1565841327798-694bc2074762" />
+               src="/web-development-process-promo-image-1.jpeg" />
             </motion.div>
           </div>
         </div>

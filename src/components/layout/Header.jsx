@@ -29,7 +29,7 @@ const Header = () => {
 
   const navItems = [
     { name: 'Home', path: '/' },
-    { name: 'Services', path: '/services', hasDropdown: true },
+    { name: 'Services', path: '#', hasDropdown: true },
     { name: 'Work', path: '/our-work' },
     { name: 'About', path: '/about' },
     { name: 'Contact', path: '/contact' },

@@ -110,17 +110,16 @@ const About = () => {
               </h2>
               <div className="space-y-6 text-gray-700 leading-relaxed">
                 <p>
-                  Founded in 2019 by Chris Smith, CS Digital Media began with a simple yet powerful vision: 
-                  to demystify the digital world and help businesses unlock their full potential through innovative marketing strategies.
+                  Founded in 2020 by a group of friends with an entrepreneurial spirit, CS Digital Media was born out of a shared drive to navigate and master the ever-changing digital landscape. 
+                  What began as a bold idea quickly grew into a mission: to demystify the digital world and help businesses unlock their full potential through innovative marketing strategies.
                 </p>
                 <p>
-                  From our base at Level 1, Devonshire House, One Mayfair Place in London W1J, 
-                  we've grown from a small, ambitious startup into one of London's most trusted digital marketing agencies, known for our personalised approach and tangible results.
+                  From our base in London, we’ve evolved from a small start-up into a dynamic digital marketing agency recognised for our personalised approach and measurable results. 
+                  Along the way, we’ve learned, adapted, and embraced new challenges, always with an unwavering commitment to delivering exceptional outcomes.
                 </p>
                 <p>
-                  Our journey has been one of continuous learning, adaptation, and an unwavering commitment 
-                  to delivering exceptional results. Today, we're proud to have helped over 150 
-                  businesses transform their digital presence and achieve remarkable growth.
+                  Today, we’re proud to partner with businesses of all sizes, helping them transform their digital presence and achieve meaningful growth. 
+                  And this is just the beginning of our journey.
                 </p>
               </div>
             </motion.div>
@@ -135,7 +134,7 @@ const About = () => {
               <img  
                 className="rounded-lg shadow-2xl w-full h-96 object-cover"
                 alt="CS Digital Media London office in Mayfair"
-               src="https://images.unsplash.com/photo-1690191886622-fd8d6cda73bd" />
+               src="/cs-media-team-promo-image-1.png" />
             </motion.div>
           </div>
         </div>

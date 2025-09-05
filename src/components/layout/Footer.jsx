@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { MapPin, Phone, Mail, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import { MapPin, Phone, Mail, Facebook, Instagram, Linkedin, Twitter  } from 'lucide-react';
 
 const Footer = () => {
   const services = [
@@ -22,10 +22,10 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: Facebook, href: '#', label: 'Facebook' },
-    { icon: Twitter, href: '#', label: 'Twitter' },
-    { icon: Instagram, href: '#', label: 'Instagram' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
+    { icon: Facebook, href: 'https://www.facebook.com/centralservicesdigital', label: 'Facebook' },
+    { icon: Twitter, href: 'https://x.com/csdigitaltech', label: 'Twitter' },
+    { icon: Instagram, href: 'https://www.instagram.com/centralservicesdigital', label: 'Instagram' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/company/central-services-digital', label: 'LinkedIn' },
   ];
 
   return (

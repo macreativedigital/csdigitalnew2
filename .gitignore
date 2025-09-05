@@ -1,0 +1,14 @@
+# Node modules
+node_modules/
+
+# Apache/Hostinger specific files
+.htaccess
+
+# Hostinger visual editor plugins
+plugins/
+
+# Build outputs
+dist/
+
+# Vercel
+.vercel

@@ -4,7 +4,11 @@ import PageWrapper from '@/components/PageWrapper';
 
 const Services = () => {
   return (
-    <PageWrapper title="Our Services" description="Explore the services offered by CS Digital Media.">
+    <PageWrapper 
+      title="Our Services" 
+      description="Explore the comprehensive digital marketing services offered by CS Digital Media in London. Web design, development, SEO, PPC, social media marketing and more."
+      canonical="https://csdigitalmedia.co.uk/services"
+    >
       <div className="container mx-auto px-4 py-16">
         <h1 className="text-4xl font-bold text-center mb-8">Our Services</h1>
         <p className="text-lg text-center max-w-3xl mx-auto text-gray-300">

@@ -110,10 +110,11 @@ const WebDesign = () => {
   return (
     <>
       <Helmet>
-        <title>Web Design Services - CS Digital Media London</title>
-        <meta name="description" content="Professional web design services in London. Custom, responsive websites that convert visitors into customers. Expert UI/UX design by CS Digital Media." />
-        <meta property="og:title" content="Web Design Services - CS Digital Media London" />
-        <meta property="og:description" content="Professional web design services in London. Custom, responsive websites that convert visitors into customers. Expert UI/UX design by CS Digital Media." />
+        <title>Web Design Agency London | CS Digital Media</title>
+        <meta name="description" content="Professional web design agency in London. Custom, responsive websites that convert visitors into customers. Expert UI/UX design by CS Digital Media." />
+        <meta property="og:title" content="Web Design Agency London | CS Digital Media" />
+        <meta property="og:description" content="Professional web design agency in London. Custom, responsive websites that convert visitors into customers. Expert UI/UX design by CS Digital Media." />
+        <link rel="canonical" href="https://csdigitalmedia.co.uk/services/web-design" />
       </Helmet>
 
       {/* Hero Section */}

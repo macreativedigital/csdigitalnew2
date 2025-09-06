@@ -112,6 +112,7 @@ const Blog = () => {
         <meta name="description" content="Stay updated with the latest digital marketing insights, tips, and trends. Expert advice on SEO, PPC, social media marketing, and web design from CS Digital Media." />
         <meta property="og:title" content="Digital Marketing Blog - CS Digital Media London" />
         <meta property="og:description" content="Stay updated with the latest digital marketing insights, tips, and trends. Expert advice on SEO, PPC, social media marketing, and web design from CS Digital Media." />
+        <link rel="canonical" href="https://csdigitalmedia.co.uk/blog" />
       </Helmet>
 
       {/* Hero Section */}

@@ -81,10 +81,11 @@ const WebDevelopment = () => {
   return (
     <>
       <Helmet>
-        <title>Web Development Services - CS Digital Media London</title>
-        <meta name="description" content="Professional web development services in London. Custom web applications, e-commerce solutions, and API development. Expert developers at CS Digital Media." />
-        <meta property="og:title" content="Web Development Services - CS Digital Media London" />
-        <meta property="og:description" content="Professional web development services in London. Custom web applications, e-commerce solutions, and API development. Expert developers at CS Digital Media." />
+        <title>Web Development Agency London | CS Digital Media</title>
+        <meta name="description" content="Professional web development agency in London. Custom web applications, e-commerce solutions, and API development. Expert developers at CS Digital Media." />
+        <meta property="og:title" content="Web Development Agency London | CS Digital Media" />
+        <meta property="og:description" content="Professional web development agency in London. Custom web applications, e-commerce solutions, and API development. Expert developers at CS Digital Media." />
+        <link rel="canonical" href="https://csdigitalmedia.co.uk/services/web-development" />
       </Helmet>
 
       {/* Hero Section */}

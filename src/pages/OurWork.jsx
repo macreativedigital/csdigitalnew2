@@ -101,10 +101,11 @@ const OurWork = () => {
   return (
     <>
       <Helmet>
-        <title>Our Work - CS Digital Media London</title>
+        <title>Our Work | CS Digital Media</title>
         <meta name="description" content="Explore the portfolio of CS Digital Media. See our successful projects in web design, SEO, PPC, and social media marketing for clients in London and beyond." />
-        <meta property="og:title" content="Our Work - CS Digital Media London" />
+        <meta property="og:title" content="Our Work | CS Digital Media" />
         <meta property="og:description" content="Explore the portfolio of CS Digital Media. See our successful projects in web design, SEO, PPC, and social media marketing for clients in London and beyond." />
+        <link rel="canonical" href="https://csdigitalmedia.co.uk/our-work" />
       </Helmet>
 
       {/* Hero Section */}

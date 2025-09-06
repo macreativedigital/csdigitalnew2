@@ -77,10 +77,11 @@ const PPC = () => {
   return (
     <>
       <Helmet>
-        <title>PPC Advertising Services - CS Digital Media London</title>
-        <meta name="description" content="Professional PPC advertising services in London. Google Ads, Facebook Ads, and more. Maximize ROI with targeted campaigns by CS Digital Media experts." />
-        <meta property="og:title" content="PPC Advertising Services - CS Digital Media London" />
-        <meta property="og:description" content="Professional PPC advertising services in London. Google Ads, Facebook Ads, and more. Maximize ROI with targeted campaigns by CS Digital Media experts." />
+        <title>PPC Agency London | CS Digital Media</title>
+        <meta name="description" content="Professional PPC agency in London. Google Ads, Facebook Ads, and more. Maximize ROI with targeted campaigns by CS Digital Media experts." />
+        <meta property="og:title" content="PPC Agency London | CS Digital Media" />
+        <meta property="og:description" content="Professional PPC agency in London. Google Ads, Facebook Ads, and more. Maximize ROI with targeted campaigns by CS Digital Media experts." />
+        <link rel="canonical" href="https://csdigitalmedia.co.uk/services/ppc" />
       </Helmet>
 
       {/* Hero Section */}

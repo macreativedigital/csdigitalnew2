@@ -68,10 +68,11 @@ const About = () => {
   return (
     <>
       <Helmet>
-        <title>About CS Digital Media - London's Premier Digital Marketing Team</title>
+        <title>About | CS Digital Media</title>
         <meta name="description" content="Learn about CS Digital Media's journey, values, and expert team. Based in Mayfair London, we're passionate about transforming businesses through digital marketing excellence." />
-        <meta property="og:title" content="About CS Digital Media - London's Premier Digital Marketing Team" />
+        <meta property="og:title" content="About | CS Digital Media" />
         <meta property="og:description" content="Learn about CS Digital Media's journey, values, and expert team. Based in Mayfair London, we're passionate about transforming businesses through digital marketing excellence." />
+        <link rel="canonical" href="https://csdigitalmedia.co.uk/about" />
       </Helmet>
 
       {/* Hero Section */}

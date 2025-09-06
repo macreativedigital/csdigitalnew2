@@ -174,10 +174,11 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>CS Digital Media - Premier Digital Marketing Agency in London</title>
-        <meta name="description" content="Transform your business with CS Digital Media's expert digital marketing services. Web design, SEO, PPC, social media marketing and more. Based in Mayfair, London." />
-        <meta property="og:title" content="CS Digital Media - Premier Digital Marketing Agency in London" />
-        <meta property="og:description" content="Transform your business with CS Digital Media's expert digital marketing services. Web design, SEO, PPC, social media marketing and more. Based in Mayfair, London." />
+        <title>Digital Marketing Agency London | CS Digital Media</title>
+        <meta name="description" content="Looking for a digital marketing agency in London? We offer web design, SEO, PPC, and social media marketing. Get in touch today to elevate your brand." />
+        <meta property="og:title" content="Digital Marketing Agency London | CS Digital Media" />
+        <meta property="og:description" content="Looking for a digital marketing agency in London? We offer web design, SEO, PPC, and social media marketing. Get in touch today to elevate your brand." />
+        <link rel="canonical" href="https://csdigitalmedia.co.uk/" />
       </Helmet>
 
       {/* Hero Section */}

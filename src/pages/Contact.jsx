@@ -82,10 +82,11 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Contact CS Digital Media - Get Your Free Consultation</title>
+        <title>Contact | CS Digital Media</title>
         <meta name="description" content="Contact CS Digital Media for expert digital marketing services. Located in Mayfair London. Get your free consultation today and transform your business online." />
-        <meta property="og:title" content="Contact CS Digital Media - Get Your Free Consultation" />
+        <meta property="og:title" content="Contact | CS Digital Media" />
         <meta property="og:description" content="Contact CS Digital Media for expert digital marketing services. Located in Mayfair London. Get your free consultation today and transform your business online." />
+        <link rel="canonical" href="https://csdigitalmedia.co.uk/contact" />
       </Helmet>
 
       {/* Hero Section */}

@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet';
 
-const PageWrapper = ({ children, title, description }) => {
+const PageWrapper = ({ children, title, description, canonical }) => {
   return (
     <>
       <Helmet>
@@ -11,6 +11,7 @@ const PageWrapper = ({ children, title, description }) => {
         <meta name="description" content={description} />
         <meta property="og:title" content={`${title} | CS Digital Media`} />
         <meta property="og:description" content={description} />
+        {canonical && <link rel="canonical" href={canonical} />}
       </Helmet>
       <motion.div
         initial={{ opacity: 0, y: 20 }}

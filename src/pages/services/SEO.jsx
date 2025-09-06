@@ -77,10 +77,11 @@ const SEO = () => {
   return (
     <>
       <Helmet>
-        <title>SEO Services - CS Digital Media London</title>
-        <meta name="description" content="Professional SEO services in London. Boost your search rankings and drive organic traffic with proven SEO strategies. Expert SEO consultants at CS Digital Media." />
-        <meta property="og:title" content="SEO Services - CS Digital Media London" />
-        <meta property="og:description" content="Professional SEO services in London. Boost your search rankings and drive organic traffic with proven SEO strategies. Expert SEO consultants at CS Digital Media." />
+        <title>SEO Agency London | CS Digital Media</title>
+        <meta name="description" content="Professional SEO agency in London. Boost your search rankings and drive organic traffic with proven SEO strategies. Expert SEO consultants at CS Digital Media." />
+        <meta property="og:title" content="SEO Agency London | CS Digital Media" />
+        <meta property="og:description" content="Professional SEO agency in London. Boost your search rankings and drive organic traffic with proven SEO strategies. Expert SEO consultants at CS Digital Media." />
+        <link rel="canonical" href="https://csdigitalmedia.co.uk/services/seo" />
       </Helmet>
 
       {/* Hero Section */}

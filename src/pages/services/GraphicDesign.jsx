@@ -93,10 +93,11 @@ const GraphicDesign = () => {
   return (
     <>
       <Helmet>
-        <title>Graphic Design Services - CS Digital Media London</title>
-        <meta name="description" content="Professional graphic design services in London. Brand identity, marketing materials, digital graphics, and packaging design. Creative excellence by CS Digital Media designers." />
-        <meta property="og:title" content="Graphic Design Services - CS Digital Media London" />
-        <meta property="og:description" content="Professional graphic design services in London. Brand identity, marketing materials, digital graphics, and packaging design. Creative excellence by CS Digital Media designers." />
+        <title>Graphic Design Agency London | CS Digital Media</title>
+        <meta name="description" content="Professional graphic design agency in London. Brand identity, marketing materials, digital graphics, and packaging design. Creative excellence by CS Digital Media designers." />
+        <meta property="og:title" content="Graphic Design Agency London | CS Digital Media" />
+        <meta property="og:description" content="Professional graphic design agency in London. Brand identity, marketing materials, digital graphics, and packaging design. Creative excellence by CS Digital Media designers." />
+        <link rel="canonical" href="https://csdigitalmedia.co.uk/services/graphic-design" />
       </Helmet>
 
       {/* Hero Section */}

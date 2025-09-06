@@ -100,10 +100,11 @@ const SocialMediaMarketing = () => {
   return (
     <>
       <Helmet>
-        <title>Social Media Marketing Services - CS Digital Media London</title>
-        <meta name="description" content="Professional social media marketing services in London. Build brand awareness and engage audiences across Facebook, Instagram, LinkedIn, and Twitter. Expert social media management by CS Digital Media." />
-        <meta property="og:title" content="Social Media Marketing Services - CS Digital Media London" />
-        <meta property="og:description" content="Professional social media marketing services in London. Build brand awareness and engage audiences across Facebook, Instagram, LinkedIn, and Twitter. Expert social media management by CS Digital Media." />
+        <title>Social Media Agency London | CS Digital Media</title>
+        <meta name="description" content="Professional social media marketing agency in London. Build brand awareness and engage audiences across Facebook, Instagram, LinkedIn, and Twitter. Expert social media management by CS Digital Media." />
+        <meta property="og:title" content="Social Media Agency London | CS Digital Media" />
+        <meta property="og:description" content="Professional social media marketing agency in London. Build brand awareness and engage audiences across Facebook, Instagram, LinkedIn, and Twitter. Expert social media management by CS Digital Media." />
+        <link rel="canonical" href="https://csdigitalmedia.co.uk/services/social-media-marketing" />
       </Helmet>
 
       {/* Hero Section */}

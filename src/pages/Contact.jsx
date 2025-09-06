@@ -36,7 +36,7 @@ const Contact = () => {
     {
       icon: MapPin,
       title: 'Location',
-      details: ['Level 1, Devonshire House', 'One Mayfair Pl, London W1J', 'United Kingdom'],
+      details: ['Level 1, Devonshire House', 'One Mayfair Pl, London W1J 8AJ', 'United Kingdom'],
       color: 'blue'
     },
     {

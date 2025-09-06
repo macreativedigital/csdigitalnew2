@@ -22,7 +22,7 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: Facebook, href: 'https://www.facebook.com/centralservicesdigital', label: 'Facebook' },
+    { icon: Facebook, href: 'https://www.facebook.com/csdigitalmediauk', label: 'Facebook' },
     { icon: Twitter, href: 'https://x.com/csdigitaltech', label: 'Twitter' },
     { icon: Instagram, href: 'https://www.instagram.com/centralservicesdigital', label: 'Instagram' },
     { icon: Linkedin, href: 'https://www.linkedin.com/company/central-services-digital', label: 'LinkedIn' },

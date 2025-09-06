@@ -211,7 +211,7 @@ const Home = () => {
                 transition={{ duration: 0.8, delay: 0.4 }}
               >
                 We're CS Digital Media, London's premier digital marketing agency. 
-                We help businesses grow through innovative web design, development, SEO, and digital marketing strategies.
+                We help businesses grow through innovative web design, development, SEO, and cutting edge strategies.
               </motion.p>
               
               <motion.div 

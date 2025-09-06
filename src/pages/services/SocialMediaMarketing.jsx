@@ -118,7 +118,7 @@ const SocialMediaMarketing = () => {
               transition={{ duration: 0.8 }}
             >
               <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-                <span className="gradient-text">Social Media</span> That Connects
+                <span className="gradient-text">Social Media</span> Agency London
               </h1>
               <p className="text-xl text-gray-300 leading-relaxed mb-8">
                 Build brand loyalty and engage your audience across all major social media platforms. 
@@ -147,7 +147,7 @@ const SocialMediaMarketing = () => {
             >
               <img  
                 className="rounded-lg shadow-2xl w-full h-96 object-cover"
-                alt="Social media marketing content creation and engagement"
+                alt="Social media agency london doing content creation and engagement"
                src="https://images.unsplash.com/photo-1676276374882-d4bcf1c06c1a" />
             </motion.div>
           </div>

@@ -200,8 +200,8 @@ const Home = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 1, delay: 0.2 }}
               >
-                Transform Your
-                <span className="gradient-text block">Digital Presence</span>
+                Digital Marketing
+                <span className="gradient-text block">Agency London</span>
               </motion.h1>
               
               <motion.p 
@@ -389,7 +389,7 @@ const Home = () => {
             >
               <img   
                 className="rounded-lg shadow-2xl w-full h-96 object-cover"
-                alt="CS Digital Media team working in modern London office" src="https://images.unsplash.com/photo-1567080185975-88eedc2b273a" />
+                alt="example of a digital marketing agency london office" src="https://images.unsplash.com/photo-1567080185975-88eedc2b273a" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-lg"></div>
             </motion.div>
           </div>

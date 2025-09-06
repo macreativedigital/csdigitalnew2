@@ -111,7 +111,7 @@ const GraphicDesign = () => {
               transition={{ duration: 0.8 }}
             >
               <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-                <span className="gradient-text">Graphic Design</span> That Inspires
+                <span className="gradient-text">Graphic Design</span> Agency London
               </h1>
               <p className="text-xl text-gray-300 leading-relaxed mb-8">
                 Create compelling visual content that communicates your brand message and captivates your audience. 
@@ -140,7 +140,7 @@ const GraphicDesign = () => {
             >
               <img  
                 className="rounded-lg shadow-2xl w-full h-96 object-cover"
-                alt="Graphic designer creating brand identity and marketing materials"
+                alt="Graphic design agency london creating stunning designs"
                src="https://images.unsplash.com/photo-1495224814653-94f36c0a31ea" />
             </motion.div>
           </div>

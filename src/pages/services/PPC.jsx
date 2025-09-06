@@ -95,7 +95,7 @@ const PPC = () => {
               transition={{ duration: 0.8 }}
             >
               <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-                <span className="gradient-text">PPC</span> That Maximizes ROI
+                <span className="gradient-text">PPC</span> Agency London
               </h1>
               <p className="text-xl text-gray-300 leading-relaxed mb-8">
                 Drive immediate, high-quality traffic with targeted pay-per-click advertising campaigns. 
@@ -124,7 +124,7 @@ const PPC = () => {
             >
               <img  
                 className="rounded-lg shadow-2xl w-full h-96 object-cover"
-                alt="PPC advertising dashboard showing campaign performance"
+                alt="PPC agency london showing campaign performance"
                src="https://images.unsplash.com/photo-1625296276703-3fbc924f07b5" />
             </motion.div>
           </div>

@@ -99,7 +99,7 @@ const WebDevelopment = () => {
               transition={{ duration: 0.8 }}
             >
               <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-                <span className="gradient-text">Web Development</span> Excellence
+                <span className="gradient-text">Web Development</span> Agency London
               </h1>
               <p className="text-xl text-gray-300 leading-relaxed mb-8">
                 We build powerful, scalable web applications with cutting-edge technology. 
@@ -128,7 +128,7 @@ const WebDevelopment = () => {
             >
               <img  
                 className="rounded-lg shadow-2xl w-full h-96 object-cover"
-                alt="Web development code on multiple monitors"
+                alt="Web development agency london showcasing code on multiple monitors"
                src="/web-development-promo-image-1.jpeg" />
             </motion.div>
           </div>

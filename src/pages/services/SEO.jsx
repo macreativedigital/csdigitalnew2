@@ -95,7 +95,7 @@ const SEO = () => {
               transition={{ duration: 0.8 }}
             >
               <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-                <span className="gradient-text">SEO</span> That Drives Growth
+                <span className="gradient-text">SEO</span> Agency London
               </h1>
               <p className="text-xl text-gray-300 leading-relaxed mb-8">
                 Boost your search engine rankings, drive sustainable organic traffic, and get found by customers who are actively searching for your services with our proven, data-driven SEO strategies.
@@ -123,7 +123,7 @@ const SEO = () => {
             >
               <img  
                 className="rounded-lg shadow-2xl w-full h-96 object-cover"
-                alt="SEO analytics dashboard showing ranking improvements"
+                alt="SEO agency london showing analytics dashboard with ranking improvements"
                src="https://images.unsplash.com/photo-1625296276703-3fbc924f07b5" />
             </motion.div>
           </div>

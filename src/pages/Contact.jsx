@@ -367,7 +367,7 @@ const Contact = () => {
               <MapPin className="w-16 h-16 mx-auto mb-4" />
               <h3 className="text-xl font-bold mb-2">CS Digital Media</h3>
               <p>Level 1, Devonshire House</p>
-              <p>One Mayfair Pl, London W1J</p>
+              <p>One Mayfair Pl, London W1J 8AJ</p>
               <p className="mt-4 text-sm">Interactive map would be integrated here</p>
             </div>
           </motion.div>

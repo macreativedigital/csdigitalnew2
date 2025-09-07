@@ -66,7 +66,7 @@ const SocialMediaMarketing = () => {
     {
       title: 'Social Media Advertising',
       description: 'Data-driven, targeted advertising campaigns to reach new audiences, generate leads, and drive conversions.',
-      features: ['Campaign Strategy & Funnels', 'Creative Ad Development', 'Advanced Audience Targeting', 'Performance Optimization']
+      features: ['Campaign Strategy & Funnels', 'Creative Ad Development', 'Advanced Audience Targeting', 'Performance Optimisation']
     },
     {
       title: 'Influencer & Creator Marketing',
@@ -101,10 +101,10 @@ const SocialMediaMarketing = () => {
     <>
       <Helmet>
         <title>Social Media Agency London | CS Digital Media</title>
-        <meta name="description" content="Professional social media marketing agency in London. Build brand awareness and engage audiences across Facebook, Instagram, LinkedIn, and Twitter. Expert social media management by CS Digital Media." />
+        <meta name="description" content="Professional social media agency London. Build brand awareness and engage audiences across Facebook, Instagram, LinkedIn, and Twitter. Expert social media management by CS Digital Media." />
         <meta property="og:title" content="Social Media Agency London | CS Digital Media" />
-        <meta property="og:description" content="Professional social media marketing agency in London. Build brand awareness and engage audiences across Facebook, Instagram, LinkedIn, and Twitter. Expert social media management by CS Digital Media." />
-        <link rel="canonical" href="https://csdigitalmedia.co.uk/services/social-media-marketing" />
+        <meta property="og:description" content="Professional social media agency London. Build brand awareness and engage audiences across Facebook, Instagram, LinkedIn, and Twitter. Expert social media management by CS Digital Media." />
+        <link rel="canonical" href="https://csdigitalmedia.co.uk/services/social-media-agency-london" />
       </Helmet>
 
       {/* Hero Section */}
@@ -121,8 +121,8 @@ const SocialMediaMarketing = () => {
                 <span className="gradient-text">Social Media</span> Agency London
               </h1>
               <p className="text-xl text-gray-300 leading-relaxed mb-8">
-                Build brand loyalty and engage your audience across all major social media platforms. 
-                Our expert social media marketing strategies drive real business results through authentic, meaningful connections.
+                Need a social media agency London to build brand loyalty and engage your audience across all major social media platforms? 
+                CS Digital are expert social media marketers who drive real business results through authentic, meaningful connections.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/contact">
@@ -203,7 +203,7 @@ const SocialMediaMarketing = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">
-              Our Social Media <span className="gradient-text">Approach</span>
+              Our London Social Media <br /> <span className="gradient-text">Services Approach</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               We create authentic, engaging, and strategic social media experiences that build lasting relationships with your audience.
@@ -399,11 +399,11 @@ const SocialMediaMarketing = () => {
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </Link>
-              <Link to="/services">
+              {/* <Link to="/services">
                 <Button variant="outline" className="px-8 py-4 text-lg font-semibold rounded-lg border-2 border-black text-black hover:bg-black hover:text-white transition-all">
                   View All Services
                 </Button>
-              </Link>
+              </Link> */}
             </div>
           </motion.div>
         </div>

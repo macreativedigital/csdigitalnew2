@@ -408,7 +408,7 @@ const Contact = () => {
               },
               {
                 question: "Do you provide ongoing support?",
-                answer: "Absolutely. We offer ongoing maintenance, optimization, and support packages to ensure your digital marketing continues to deliver results long after the initial project completion."
+                answer: "Absolutely. We offer ongoing maintenance, optimisation, and support packages to ensure your digital marketing continues to deliver results long after the initial project completion."
               }
             ].map((faq, index) => (
               <motion.div

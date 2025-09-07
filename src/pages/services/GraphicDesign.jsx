@@ -94,10 +94,10 @@ const GraphicDesign = () => {
     <>
       <Helmet>
         <title>Graphic Design Agency London | CS Digital Media</title>
-        <meta name="description" content="Professional graphic design agency in London. Brand identity, marketing materials, digital graphics, and packaging design. Creative excellence by CS Digital Media designers." />
+        <meta name="description" content="Professional graphic design agency London. Brand identity, marketing materials, digital graphics, and packaging design. Creative excellence by CS Digital Media designers." />
         <meta property="og:title" content="Graphic Design Agency London | CS Digital Media" />
-        <meta property="og:description" content="Professional graphic design agency in London. Brand identity, marketing materials, digital graphics, and packaging design. Creative excellence by CS Digital Media designers." />
-        <link rel="canonical" href="https://csdigitalmedia.co.uk/services/graphic-design" />
+        <meta property="og:description" content="Professional graphic design agency London. Brand identity, marketing materials, digital graphics, and packaging design. Creative excellence by CS Digital Media designers." />
+        <link rel="canonical" href="https://csdigitalmedia.co.uk/services/graphic-design-agency-london" />
       </Helmet>
 
       {/* Hero Section */}
@@ -114,8 +114,8 @@ const GraphicDesign = () => {
                 <span className="gradient-text">Graphic Design</span> Agency London
               </h1>
               <p className="text-xl text-gray-300 leading-relaxed mb-8">
-                Create compelling visual content that communicates your brand message and captivates your audience. 
-                Our expert designers bring creativity and strategy together for maximum impact.
+                Need a graphic design agency London to create compelling visual content that communicates your brand message and captivates your audience? 
+                CS Digital are expert designers who bring creativity and strategy together for maximum impact.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/contact">
@@ -124,11 +124,11 @@ const GraphicDesign = () => {
                     <ArrowRight className="ml-2 w-5 h-5" />
                   </Button>
                 </Link>
-                <Link to="/services">
+                {/* <Link to="/services">
                   <Button variant="outline" className="px-8 py-4 text-lg font-semibold rounded-lg border-2 border-white text-white hover:bg-white hover:text-black transition-all">
                     View All Services
                   </Button>
-                </Link>
+                </Link> */}
               </div>
             </motion.div>
             
@@ -157,7 +157,7 @@ const GraphicDesign = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">
-              Why Choose Our <span className="gradient-text">Design Services</span>
+              Why Choose Our London <br /><span className="gradient-text">Graphic Design Services</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               We combine artistic creativity with strategic thinking to create designs that not only look great but also drive results.
@@ -201,7 +201,7 @@ const GraphicDesign = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">
-              Design <span className="gradient-text">Services</span>
+              Our<br /> <span className="gradient-text">Design Services</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Comprehensive graphic design services to meet all your visual communication needs.
@@ -412,11 +412,11 @@ const GraphicDesign = () => {
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </Link>
-              <Link to="/services">
+              {/* <Link to="/services">
                 <Button variant="outline" className="px-8 py-4 text-lg font-semibold rounded-lg border-2 border-white text-white hover:bg-white hover:text-black transition-all">
                   View All Services
                 </Button>
-              </Link>
+              </Link> */}
             </div>
           </motion.div>
         </div>

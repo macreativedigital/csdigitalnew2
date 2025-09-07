@@ -221,11 +221,11 @@ const OurWork = () => {
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </Link>
-              <Link to="/services">
+              {/* <Link to="/services">
                 <Button variant="outline" className="px-8 py-4 text-lg font-semibold rounded-lg border-2 border-white text-white hover:bg-white hover:text-black transition-all">
                   View Our Services
                 </Button>
-              </Link>
+              </Link> */}
             </div>
           </motion.div>
         </div>

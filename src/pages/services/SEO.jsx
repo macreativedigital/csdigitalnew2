@@ -33,22 +33,22 @@ const SEO = () => {
     {
       title: 'Technical SEO',
       description: 'We optimize your website\'s technical foundation for flawless search engine crawling and indexing.',
-      features: ['Site Speed Optimization', 'Mobile-First Indexing', 'Schema Markup Implementation', 'XML Sitemaps & Robots.txt']
+      features: ['Site Speed Optimisation', 'Mobile-First Indexing', 'Schema Markup Implementation', 'XML Sitemaps & Robots.txt']
     },
     {
       title: 'Content SEO',
       description: 'We create and optimize high-value content that ranks well and provides real value to your audience.',
-      features: ['Content Strategy & Creation', 'Keyword Optimization', 'Topical Authority Building', 'Content Gap Analysis']
+      features: ['Content Strategy & Creation', 'Keyword Optimisation', 'Topical Authority Building', 'Content Gap Analysis']
     },
     {
       title: 'Local SEO',
       description: 'We improve your visibility in local search results and Google Maps to drive foot traffic and local leads.',
-      features: ['Google Business Profile Optimization', 'Local Citation Building', 'Review Management Strategy', 'Local Keyword Targeting']
+      features: ['Google Business Profile Optimisation', 'Local Citation Building', 'Review Management Strategy', 'Local Keyword Targeting']
     },
     {
       title: 'E-commerce SEO',
       description: 'Specialized SEO strategies for online stores to increase product visibility, traffic, and sales.',
-      features: ['Product & Category Page Optimization', 'Shopping Feed Management', 'Structured Data for Products', 'User Review Strategies']
+      features: ['Product & Category Page Optimisation', 'Shopping Feed Management', 'Structured Data for Products', 'User Review Strategies']
     }
   ];
 
@@ -78,10 +78,10 @@ const SEO = () => {
     <>
       <Helmet>
         <title>SEO Agency London | CS Digital Media</title>
-        <meta name="description" content="Professional SEO agency in London. Boost your search rankings and drive organic traffic with proven SEO strategies. Expert SEO consultants at CS Digital Media." />
+        <meta name="description" content="Professional SEO agency London. Boost your search rankings and drive organic traffic with proven SEO strategies. Expert SEO consultants at CS Digital Media." />
         <meta property="og:title" content="SEO Agency London | CS Digital Media" />
-        <meta property="og:description" content="Professional SEO agency in London. Boost your search rankings and drive organic traffic with proven SEO strategies. Expert SEO consultants at CS Digital Media." />
-        <link rel="canonical" href="https://csdigitalmedia.co.uk/services/seo" />
+        <meta property="og:description" content="Professional SEO agency London. Boost your search rankings and drive organic traffic with proven SEO strategies. Expert SEO consultants at CS Digital Media." />
+        <link rel="canonical" href="https://csdigitalmedia.co.uk/services/seo-agency-london" />
       </Helmet>
 
       {/* Hero Section */}
@@ -98,7 +98,7 @@ const SEO = () => {
                 <span className="gradient-text">SEO</span> Agency London
               </h1>
               <p className="text-xl text-gray-300 leading-relaxed mb-8">
-                Boost your search engine rankings, drive sustainable organic traffic, and get found by customers who are actively searching for your services with our proven, data-driven SEO strategies.
+                Looking for an expert SEO agency London? We can boost your search engine rankings and help youdrive sustainable organic traffic. We'll get you found by customers who are actively searching for your services with our proven, data-driven SEO strategies.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/contact">
@@ -179,10 +179,10 @@ const SEO = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">
-              Our Holistic SEO <span className="gradient-text">Approach</span>
+              Our Holistic London SEO<br /><span className="gradient-text">Services Approach</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We use a comprehensive, 360-degree approach to SEO that covers all critical aspects of search engine optimization for long-term success.
+              We use a comprehensive, 360-degree approach to SEO that covers all critical aspects of search engine optimisation for long-term success.
             </p>
           </motion.div>
 
@@ -292,14 +292,14 @@ const SEO = () => {
                   <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold flex-shrink-0">3</div>
                   <div>
                     <h3 className="text-xl font-bold text-black mb-2">Implementation & Execution</h3>
-                    <p className="text-gray-600">We execute our on-page, off-page, and technical optimization strategies with precision.</p>
+                    <p className="text-gray-600">We execute our on-page, off-page, and technical optimisation strategies with precision.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
                   <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold flex-shrink-0">4</div>
                   <div>
-                    <h3 className="text-xl font-bold text-black mb-2">Monitoring & Optimization</h3>
-                    <p className="text-gray-600">We provide continuous monitoring, analysis, and optimization to ensure sustained growth and adapt to algorithm changes.</p>
+                    <h3 className="text-xl font-bold text-black mb-2">Monitoring & Optimisation</h3>
+                    <p className="text-gray-600">We provide continuous monitoring, analysis, and optimisation to ensure sustained growth and adapt to algorithm changes.</p>
                   </div>
                 </div>
               </div>
@@ -388,11 +388,11 @@ const SEO = () => {
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </Link>
-              <Link to="/services">
+              {/* <Link to="/services">
                 <Button variant="outline" className="px-8 py-4 text-lg font-semibold rounded-lg border-2 border-white text-white hover:bg-white hover:text-black transition-all">
                   View All Services
                 </Button>
-              </Link>
+              </Link> */}
             </div>
           </motion.div>
         </div>

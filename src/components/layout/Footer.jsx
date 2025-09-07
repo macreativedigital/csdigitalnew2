@@ -5,18 +5,18 @@ import { MapPin, Phone, Mail, Facebook, Instagram, Linkedin, Twitter  } from 'lu
 
 const Footer = () => {
   const services = [
-    { name: 'Web Design', path: '/services/web-design' },
-    { name: 'Web Development', path: '/services/web-development' },
-    { name: 'SEO', path: '/services/seo' },
-    { name: 'PPC', path: '/services/ppc' },
-    { name: 'Social Media Marketing', path: '/services/social-media-marketing' },
-    { name: 'Graphic Design', path: '/services/graphic-design' },
+    { name: 'Web Design', path: '/services/web-design-agency-london' },
+    { name: 'Web Development', path: '/services/web-development-agency-london' },
+    { name: 'SEO', path: '/services/seo-agency-london' },
+    { name: 'PPC', path: '/services/ppc-agency-london' },
+    { name: 'Social Media Marketing', path: '/services/social-media-agency-london' },
+    { name: 'Graphic Design', path: '/services/graphic-design-agency-london' },
   ];
 
   const quickLinks = [
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
-    { name: 'Services', path: '/services' },
+    // { name: 'Services', path: '/services' },
     { name: 'Work', path: '/our-work' },
     { name: 'Contact', path: '/contact' },
   ];

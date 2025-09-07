@@ -25,12 +25,12 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/services/web-design" element={<WebDesign />} />
-          <Route path="/services/web-development" element={<WebDevelopment />} />
-          <Route path="/services/seo" element={<SEO />} />
-          <Route path="/services/ppc" element={<PPC />} />
-          <Route path="/services/social-media-marketing" element={<SocialMediaMarketing />} />
-          <Route path="/services/graphic-design" element={<GraphicDesign />} />
+          <Route path="/services/web-design-agency-london" element={<WebDesign />} />
+          <Route path="/services/web-development-agency-london" element={<WebDevelopment />} />
+          <Route path="/services/seo-agency-london" element={<SEO />} />
+          <Route path="/services/ppc-agency-london" element={<PPC />} />
+          <Route path="/services/social-media-agency-london" element={<SocialMediaMarketing />} />
+          <Route path="/services/graphic-design-agency-london" element={<GraphicDesign />} />
           <Route path="/our-work" element={<OurWork />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />

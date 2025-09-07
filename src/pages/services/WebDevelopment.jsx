@@ -82,10 +82,10 @@ const WebDevelopment = () => {
     <>
       <Helmet>
         <title>Web Development Agency London | CS Digital Media</title>
-        <meta name="description" content="Professional web development agency in London. Custom web applications, e-commerce solutions, and API development. Expert developers at CS Digital Media." />
+        <meta name="description" content="Professional web development agency London. Custom web applications, e-commerce solutions, and API development. Expert developers at CS Digital Media." />
         <meta property="og:title" content="Web Development Agency London | CS Digital Media" />
-        <meta property="og:description" content="Professional web development agency in London. Custom web applications, e-commerce solutions, and API development. Expert developers at CS Digital Media." />
-        <link rel="canonical" href="https://csdigitalmedia.co.uk/services/web-development" />
+        <meta property="og:description" content="Professional web development agency London. Custom web applications, e-commerce solutions, and API development. Expert developers at CS Digital Media." />
+        <link rel="canonical" href="https://csdigitalmedia.co.uk/services/web-development-agency-london" />
       </Helmet>
 
       {/* Hero Section */}
@@ -102,7 +102,7 @@ const WebDevelopment = () => {
                 <span className="gradient-text">Web Development</span> Agency London
               </h1>
               <p className="text-xl text-gray-300 leading-relaxed mb-8">
-                We build powerful, scalable web applications with cutting-edge technology. 
+                Looking for a web development agency London to build powerful, scalable web applications with cutting-edge technology? 
                 Our expert developers create custom solutions that drive business growth, efficiency, and innovation.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -145,11 +145,11 @@ const WebDevelopment = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">
-              Our Development <span className="gradient-text">Advantage</span>
+              About Our London<br /><span className="gradient-text">Web Development Services</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We combine deep technical expertise with a strategic business focus to deliver 
-              web applications that solve real-world problems and create lasting value.
+              We combine deep technical expertise with a strategic business focus to deliver
+              London web development services that solve real-world problems and create lasting value.
             </p>
           </motion.div>
 
@@ -393,11 +393,11 @@ const WebDevelopment = () => {
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </Link>
-              <Link to="/services">
+              {/* <Link to="/services">
                 <Button variant="outline" className="px-8 py-4 text-lg font-semibold rounded-lg border-2 border-white text-white hover:bg-white hover:text-black transition-all">
                   View All Services
                 </Button>
-              </Link>
+              </Link> */}
             </div>
           </motion.div>
         </div>

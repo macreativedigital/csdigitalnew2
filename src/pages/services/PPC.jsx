@@ -15,7 +15,7 @@ const PPC = () => {
     {
       icon: DollarSign,
       title: 'Maximized ROI',
-      description: 'We maximize your return on investment with smart bidding strategies, continuous A/B testing, and budget optimization.'
+      description: 'We maximize your return on investment with smart bidding strategies, continuous A/B testing, and budget optimisation.'
     },
     {
       icon: BarChart,
@@ -25,7 +25,7 @@ const PPC = () => {
     {
       icon: Zap,
       title: 'Immediate Impact',
-      description: 'Start seeing tangible results and valuable traffic almost immediately with rapid campaign deployment and optimization.'
+      description: 'Start seeing tangible results and valuable traffic almost immediately with rapid campaign deployment and optimisation.'
     }
   ];
 
@@ -63,7 +63,7 @@ const PPC = () => {
     {
       name: 'James Parker',
       company: 'Parker Industries',
-      content: 'Our PPC campaigns delivered an incredible 5x ROI in the first quarter alone. The team\'s expertise in campaign optimization and strategic targeting is truly outstanding. A game-changer for our lead generation.',
+      content: 'Our PPC campaigns delivered an incredible 5x ROI in the first quarter alone. The team\'s expertise in campaign optimisation and strategic targeting is truly outstanding. A game-changer for our lead generation.',
       rating: 5
     },
     {
@@ -78,10 +78,10 @@ const PPC = () => {
     <>
       <Helmet>
         <title>PPC Agency London | CS Digital Media</title>
-        <meta name="description" content="Professional PPC agency in London. Google Ads, Facebook Ads, and more. Maximize ROI with targeted campaigns by CS Digital Media experts." />
+        <meta name="description" content="Professional PPC agency London. Google Ads, Facebook Ads, and more. Maximize ROI with targeted campaigns by CS Digital Media experts." />
         <meta property="og:title" content="PPC Agency London | CS Digital Media" />
-        <meta property="og:description" content="Professional PPC agency in London. Google Ads, Facebook Ads, and more. Maximize ROI with targeted campaigns by CS Digital Media experts." />
-        <link rel="canonical" href="https://csdigitalmedia.co.uk/services/ppc" />
+        <meta property="og:description" content="Professional PPC agency London. Google Ads, Facebook Ads, and more. Maximize ROI with targeted campaigns by CS Digital Media experts." />
+        <link rel="canonical" href="https://csdigitalmedia.co.uk/services/ppc-agency-london" />
       </Helmet>
 
       {/* Hero Section */}
@@ -98,8 +98,8 @@ const PPC = () => {
                 <span className="gradient-text">PPC</span> Agency London
               </h1>
               <p className="text-xl text-gray-300 leading-relaxed mb-8">
-                Drive immediate, high-quality traffic with targeted pay-per-click advertising campaigns. 
-                Our expert PPC management delivers qualified leads and maximizes your return on every penny spent.
+                Need an expert PPC agency London to help you drive immediate, high-quality traffic? With our targeted pay-per-click advertising campaigns
+                you'll get qualified leads and maximize your return on every penny spent.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/contact">
@@ -180,7 +180,7 @@ const PPC = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">
-              Our Strategic PPC <span className="gradient-text">Advantage</span>
+              Our Strategic London PPC <br /> <span className="gradient-text">Services Advantage</span>
             </h2>
             <p className="text-xl text-gray-400 max-w-3xl mx-auto">
               We combine data-driven strategies with creative excellence to deliver PPC campaigns that not only perform but dominate.
@@ -300,7 +300,7 @@ const PPC = () => {
                   <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold flex-shrink-0">4</div>
                   <div>
                     <h3 className="text-xl font-bold text-black mb-2">Optimize, Scale & Report</h3>
-                    <p className="text-gray-600">We provide ongoing optimization, scale successful campaigns for maximum ROI, and deliver transparent performance reports.</p>
+                    <p className="text-gray-600">We provide ongoing optimisation, scale successful campaigns for maximum ROI, and deliver transparent performance reports.</p>
                   </div>
                 </div>
               </div>
@@ -390,11 +390,11 @@ const PPC = () => {
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </Link>
-              <Link to="/services">
+              {/* <Link to="/services">
                 <Button variant="outline" className="px-8 py-4 text-lg font-semibold rounded-lg border-2 border-white text-white hover:bg-white hover:text-black transition-all">
                   View All Services
                 </Button>
-              </Link>
+              </Link> */}
             </div>
           </motion.div>
         </div>

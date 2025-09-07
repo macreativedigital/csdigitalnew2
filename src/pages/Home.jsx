@@ -14,37 +14,37 @@ const Home = () => {
       icon: Globe,
       title: 'Web Design',
       description: 'Stunning, responsive websites that convert visitors into customers.',
-      link: '/services/web-design'
+      link: '/services/web-design-agency-london'
     },
     {
       icon: Zap,
       title: 'Web Development',
       description: 'Custom web applications built with cutting-edge technology.',
-      link: '/services/web-development'
+      link: '/services/web-development-agency-london'
     },
     {
       icon: TrendingUp,
       title: 'SEO',
       description: 'Boost your search rankings and drive organic traffic.',
-      link: '/services/seo'
+      link: '/services/seo-agency-london'
     },
     {
       icon: Target,
       title: 'PPC',
       description: 'Targeted advertising campaigns that maximize your ROI.',
-      link: '/services/ppc'
+      link: '/services/ppc-agency-london'
     },
     {
       icon: Users,
       title: 'Social Media Marketing',
       description: 'Engage your audience and build brand loyalty across platforms.',
-      link: '/services/social-media-marketing'
+      link: '/services/social-media-agency-london'
     },
     {
       icon: Award,
       title: 'Graphic Design',
       description: 'Eye-catching visuals that communicate your brand message.',
-      link: '/services/graphic-design'
+      link: '/services/graphic-design-agency-london'
     }
   ];
 
@@ -147,7 +147,7 @@ const Home = () => {
       date: '2024-01-12',
       readTime: '6 min read',
       category: 'SEO',
-      image: 'Voice search optimization on mobile device'
+      image: 'Voice search optimisation on mobile device'
     },
     {
       title: 'The Power of Video Marketing in 2024',
@@ -210,8 +210,7 @@ const Home = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
               >
-                We're CS Digital Media, London's premier digital marketing agency. 
-                We help businesses grow through innovative web design, development, SEO, and cutting edge strategies.
+               Looking for an expert digital marketing agency London? At CS Digital Media, we help businesses grow through innovative web design, development, SEO, and cutting edge strategies.
               </motion.p>
               
               <motion.div 
@@ -226,11 +225,11 @@ const Home = () => {
                     <ArrowRight className="ml-2 w-5 h-5" />
                   </Button>
                 </Link>
-                <Link to="/services">
+                {/* <Link to="/services">
                   <Button variant="outline" className="px-8 py-4 text-lg font-semibold rounded-lg border-2 border-white text-white hover:bg-white hover:text-black transition-all">
                     View Our Services
                   </Button>
-                </Link>
+                </Link> */}
               </motion.div>
             </motion.div>
           </div>
@@ -284,10 +283,10 @@ const Home = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">
-              Our Core <span className="gradient-text">Services</span>
+              Our Core London <br /> <span className="gradient-text">Digital Marketing Services</span>
             </h2>
             <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-              We offer comprehensive digital marketing solutions to help your business thrive in the digital landscape.
+              We offer comprehensive london digital marketing services to help your business thrive in the digital landscape.
             </p>
           </motion.div>
 
@@ -327,12 +326,12 @@ const Home = () => {
             viewport={{ once: true }}
             className="text-center mt-16"
           >
-            <Link to="/services">
+            {/* <Link to="/services">
               <Button className="btn-secondary px-8 py-3 text-lg font-semibold rounded-lg">
                 View All Services
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
-            </Link>
+            </Link> */}
           </motion.div>
         </div>
       </section>

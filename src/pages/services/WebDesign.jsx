@@ -111,10 +111,10 @@ const WebDesign = () => {
     <>
       <Helmet>
         <title>Web Design Agency London | CS Digital Media</title>
-        <meta name="description" content="Professional web design agency in London. Custom, responsive websites that convert visitors into customers. Expert UI/UX design by CS Digital Media." />
+        <meta name="description" content="Professional web design agency London. Custom, responsive websites that convert visitors into customers. Expert UI/UX design by CS Digital Media." />
         <meta property="og:title" content="Web Design Agency London | CS Digital Media" />
-        <meta property="og:description" content="Professional web design agency in London. Custom, responsive websites that convert visitors into customers. Expert UI/UX design by CS Digital Media." />
-        <link rel="canonical" href="https://csdigitalmedia.co.uk/services/web-design" />
+        <meta property="og:description" content="Professional web design agency London. Custom, responsive websites that convert visitors into customers. Expert UI/UX design by CS Digital Media." />
+        <link rel="canonical" href="https://csdigitalmedia.co.uk/services/web-design-agency-london" />
       </Helmet>
 
       {/* Hero Section */}
@@ -131,8 +131,8 @@ const WebDesign = () => {
                 <span className="gradient-text">Web Design</span> Agency London
               </h1>
               <p className="text-xl text-gray-300 leading-relaxed mb-8">
-                We create stunning, responsive websites that captivate your audience, drive business growth, and tell your brand's unique story. 
-                Our expert designers craft digital experiences tailored to convert visitors into loyal customers.
+                Searching for a brilliant web design agency London? At CS Digital we create stunning, responsive websites that captivate your audience, drive business growth, and tell your brand's unique story. 
+                Our expert designers craft digital experiences, tailored to convert visitors into loyal customers.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/contact">
@@ -174,7 +174,7 @@ const WebDesign = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">
-              Our Web Design <span className="gradient-text">Philosophy</span>
+              Our London Web Design<br /><span className="gradient-text">Services Philosophy</span>
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               We combine creativity with strategic functionality to deliver websites that not only look amazing 
@@ -367,11 +367,11 @@ const WebDesign = () => {
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </Link>
-              <Link to="/services">
+              {/* <Link to="/services">
                 <Button variant="outline" className="px-8 py-4 text-lg font-semibold rounded-lg border-2 border-black text-black hover:bg-black hover:text-white transition-all">
                   View All Services
                 </Button>
-              </Link>
+              </Link> */}
             </div>
           </motion.div>
         </div>

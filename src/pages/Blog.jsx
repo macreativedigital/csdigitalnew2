@@ -12,7 +12,7 @@ const Blog = () => {
 
   const featuredPost = {
     title: 'The Future of Digital Marketing: Trends to Watch in 2024',
-    excerpt: 'Discover the latest digital marketing trends that will shape the industry in 2024, from AI-powered personalization to voice search optimization.',
+    excerpt: 'Discover the latest digital marketing trends that will shape the industry in 2024, from AI-powered personalization to voice search optimisation.',
     author: 'Sarah Johnson',
     date: '2024-01-15',
     readTime: '8 min read',
@@ -28,7 +28,7 @@ const Blog = () => {
       date: '2024-01-12',
       readTime: '6 min read',
       category: 'SEO',
-      image: 'Voice search optimization on mobile device'
+      image: 'Voice search optimisation on mobile device'
     },
     {
       title: 'The Power of Video Marketing in 2024',
@@ -64,7 +64,7 @@ const Blog = () => {
       date: '2024-01-03',
       readTime: '8 min read',
       category: 'SEO',
-      image: 'Local SEO optimization for small businesses'
+      image: 'Local SEO optimisation for small businesses'
     },
     {
       title: 'Social Media Analytics: Measuring What Matters',
@@ -374,11 +374,11 @@ const Blog = () => {
                   <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </Link>
-              <Link to="/services">
+              {/* <Link to="/services">
                 <Button variant="outline" className="px-8 py-4 text-lg font-semibold rounded-lg border-2 border-black text-black hover:bg-black hover:text-white transition-all">
                   View Our Services
                 </Button>
-              </Link>
+              </Link> */}
             </div>
           </motion.div>
         </div>
